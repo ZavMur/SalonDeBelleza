@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalondeBelleza.web", "SalondeBelleza.web\SalondeBelleza.web.csproj", "{C7903543-0078-413D-B7BA-A4E95652F064}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalondeBelleza.WebAdim", "SalondeBelleza.WebAdim\SalondeBelleza.WebAdim.csproj", "{6F5E4D19-E601-4E6A-ADC7-E16667E67E9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalondeBelleza.WebAdmin", "SalondeBelleza.WebAdim\SalondeBelleza.WebAdmin.csproj", "{6F5E4D19-E601-4E6A-ADC7-E16667E67E9F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalondeBelleza.Win", "SalondeBelleza.Win\SalondeBelleza.Win.csproj", "{85938F19-29C8-406A-A0F8-DEF49D8A8DA4}"
 EndProject

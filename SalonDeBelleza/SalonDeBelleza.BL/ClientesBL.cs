@@ -26,6 +26,7 @@ namespace SalonDeBelleza.BL
             return ListadeClientes;
         }
 
+        
         public List<Cliente> ObtenerClientesActivos()
         {
             ListadeClientes = _contexto.Clientes

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace SalondeBelleza.WebAdim.Controllers
+namespace SalondeBelleza.WebAdmin.Controllers 
 {
     public class ProductosController : Controller
     {

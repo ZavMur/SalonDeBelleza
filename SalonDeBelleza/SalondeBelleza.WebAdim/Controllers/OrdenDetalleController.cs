@@ -5,7 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace SalondeBelleza.WebAdim.Controllers
+namespace SalondeBelleza.WebAdmin.Controllers
 {
     public class OrdenDetalleController : Controller
     {
@@ -31,7 +31,7 @@ namespace SalondeBelleza.WebAdim.Controllers
             var nuevaOrdenDetalle = new OrdenDetalle();
             nuevaOrdenDetalle.OrdenId = id;
 
-            var productos = _productosBL.ObtenerProductos();
+            var productos = _productosBL.ObtenerProductosActivos();
             ViewBag.ProductoId = new SelectList(productos, "Id", "Descripcion");
 
             return View(nuevaOrdenDetalle);
@@ -52,7 +52,7 @@ namespace SalondeBelleza.WebAdim.Controllers
                 return RedirectToAction("Index", new { id = ordenDetalle.OrdenId });
             }
 
-            var productos = _productosBL.ObtenerProductos();
+            var productos = _productosBL.ObtenerProductosActivos();
             ViewBag.ProductoId = new SelectList(productos, "Id", "Descripcion");
 
             return View(ordenDetalle);

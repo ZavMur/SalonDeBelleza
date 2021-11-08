@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace SalondeBelleza.WebAdim.Controllers
+namespace SalondeBelleza.WebAdmin.Controllers
 {
     public class LoginController : Controller
     {
@@ -12,6 +12,12 @@ namespace SalondeBelleza.WebAdim.Controllers
         public ActionResult Index()
         {
             return View();
+        }
+
+        [HttpPost]
+        public ActionResult Index(FormCollection data)
+        {
+            return RedirectToAction("Index","Home");
         }
     }
 }

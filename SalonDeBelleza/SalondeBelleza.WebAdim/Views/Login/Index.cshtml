@@ -2,14 +2,63 @@
 @{
     Layout = null;
 }
-
-<form method="post" action="/Login/Index">
-    <input type="email" name="email" placeholder="E-mail">
-    <input type="password" name="pass" placeholder="Password">
-    <a href="#">Log in</a>
-    <div id="remember-container">
-        <input type="checkbox" id="checkbox-2-1" class="checkbox" checked="checked" />
-        <span id="remember">Remember me</span>
-        <span id="forgotten">Forgotten password</span>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - LogIn Form</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="~/assets/css/style.css">
+</head>
+<body>
+    <!-- partial:index.partial.html -->
+    <div id="login-button">
+        <img src="https://dqcgrsy5v35b9.cloudfront.net/cruiseplanner/assets/img/icons/login-w-icon.png">
+        </img>
     </div>
-</form>
+    <div id="container">
+        <h1>Log In</h1>
+        <span class="close-btn">
+            <img /> src="https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-128.png"></img>
+        </span>
+        <form>
+            <input type="email" name="email" placeholder="E-mail">
+            <input type="password" name="pass" placeholder="Password">
+            <a href="/">login</a>
+            <div id="remember-container">
+                <input type="checkbox" id="checkbox-2-1" class="checkbox" checked="checked" />
+                <span id="remember">Remember me</span>
+                <span id="forgotten">Forgotten password</span>
+            </div>
+        </form>
+    </div>
+    <!-- Forgotten Password Container -->
+    <div id="forgotten-container">
+        <h1>Forgotten</h1>
+        <span class="close-btn">
+            <img src="https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-128.png"></img>
+        </span>
+        <form>
+            <input type="email" name="email" placeholder="E-mail">
+            <a href="#" class="orange-btn">Get new password</a>
+        </form>
+    </div>
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="~/assets/js/script.js"></script>
+</body>
+</html>
+<rs-layer-wrap class="rs-parallax-wrap" style="position: absolute; display: block; pointer-events: auto; left: 100px; top: 100px; perspective: 601px;">
+    <rs-loop-wrap style="position:absolute;display:block;">
+        <rs-mask-wrap style="position: absolute; display: block; transform-origin: 50% 50%; overflow: hidden; transform: translate(0px, 0px);">
+            <rs-layer id="slider-22-slide-63-layer-2" data-type="text" data-color="rgba(210, 166, 113, 1)" data-rsp_ch="on" data-xy="x:r;xo:20px;y:80px;" data-text="w:normal;s:70;l:70;" data-dim="w:558px;h:156px;" data-frame_0="y:100%;tp:600;" data-frame_0_mask="u:t;y:100%;" data-frame_1="tp:600;e:power2.inOut;st:500;sp:2000;sR:500;" data-frame_1_mask="u:t;" data-frame_999="o:0;tp:600;e:nothing;st:w;sR:6500;" style="z-index: 6; font-family: &quot;Playfair Display&quot;; color: rgb(210, 166, 113); text-decoration: none; white-space: normal; width: 388px; height: 109px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: left; line-height: 49px; letter-spacing: 0px; font-weight: 300; font-size: 49px; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;" class="rs-layer" data-idcheck="true" data-stylerecorder="true" data-initialised="true">
+                <div style="text-align: left; line-height: 49px;  font-weight: 100; font-size: 49px;" data-stylerecorder="true">
+                    La moda pasa , el estilo es eterno.
+                </div>
+        </rs-mask-wrap>
+    </rs-loop-wrap></rs-layer-wr>
+    <div></div>
